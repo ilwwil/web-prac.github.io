@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.profile-card {
+    max-width: 420px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+button {
+    margin: 6px 6px 0 0;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+input {
+    margin-left: 6px;
+    padding: 4px;
+}
+
+.invalid {
+    outline: 2px solid #d00;
+}
+
+/* Тёмная тема */
+body.dark {
+    background: #111;
+    color: #eee;
+}
+
+body.dark .profile-card {
+    background: #222;
+    border-color: #444;
+}
